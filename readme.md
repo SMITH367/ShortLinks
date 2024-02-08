@@ -1,4 +1,6 @@
-Short Links Fullstack proyect V 1.0
+Short Links Fullstack proyect V 1.0 
+
+An Open Source URL Shotener.
 
 You can see the production app [here](https://sh-link.web.app/)
 
