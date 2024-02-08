@@ -1,0 +1,34 @@
+<div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" id="editSlugModal" tabindex="-1" role="dialog" aria-labelledby="editSlugModalLabel"
+  aria-hidden="true" >
+  <section class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="editSlugModalLabel">Edit: {{url_key}}</h5>
+        <button type="button " class="btn-close" data-dismiss="modal" aria-label="Close" (click)="closeModal()">
+        </button>
+      </div>
+      <article class="modal-body">
+
+        <form [formGroup]="updateUrlForm">
+          <label for="newUrl">Enter the new URL: </label>
+          <input formControlName="urlToUpdate" class="input-edit-slug border rounded-1 w-100 py-2 mt-3 mb-3" placeholder="https://" type="text" name="" id="newUrl">
+          <div class="text-danger" *ngIf="updateUrlForm.get('urlToShort')?.hasError('urlFormat') && updateUrlForm.get('urlToShort')?.touched" >
+            Invalid url
+          </div>
+          <div class="border rounded-1 py-1 my-1 bg-warning-subtle">⚠ This action is irreversible</div>
+
+          <div *ngIf="urlUpdated" class="mt-4 alert alert-success alert-dismissible fade show" role="alert">
+            <strong>¡URL has been updated correctly!</strong>
+          </div>
+
+          <footer class="modal-footer mt-1">
+            <button class="btn btn-primary" [disabled]="updateUrlForm.invalid" (click)="editUrl($event)">✓ Edit URL</button>
+          </footer>
+
+
+        </form>
+
+      </article>
+    </div>
+  </section>
+</div>

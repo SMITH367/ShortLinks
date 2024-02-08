@@ -1,0 +1,57 @@
+0000000000000000000000000000000000000000 c8c2fce5a1e4ec5a4cb9cb8a9cdded6757144c60 smith367 <brayansmithpuente@gmail.com> 1705781840 -0500	commit (initial): initial commit
+c8c2fce5a1e4ec5a4cb9cb8a9cdded6757144c60 0eb371188f49a653710ee9ead9b34ed7ba665c19 smith367 <brayansmithpuente@gmail.com> 1705783363 -0500	commit: config routing
+0eb371188f49a653710ee9ead9b34ed7ba665c19 428ccfdea64917cc46405b6922ce472ef7f5ede2 smith367 <brayansmithpuente@gmail.com> 1705818979 -0500	commit: bootstrap added
+428ccfdea64917cc46405b6922ce472ef7f5ede2 7fba955365ff436f3d33542c736c2dfa1a631cb1 smith367 <brayansmithpuente@gmail.com> 1705818999 -0500	commit: funcional header
+7fba955365ff436f3d33542c736c2dfa1a631cb1 b55dda7a96a78febbab30c1bce1d2f365e682a5d smith367 <brayansmithpuente@gmail.com> 1705819047 -0500	commit: Readme
+b55dda7a96a78febbab30c1bce1d2f365e682a5d 04cc110f2a202a56f526e0bcaab61a27b60226ac smith367 <brayansmithpuente@gmail.com> 1706044706 -0500	commit: home complete
+04cc110f2a202a56f526e0bcaab61a27b60226ac fbc9654c86474cde986a38281dd194b9e5c7fe8a smith367 <brayansmithpuente@gmail.com> 1706054283 -0500	commit: rest service template
+fbc9654c86474cde986a38281dd194b9e5c7fe8a 268b070faa05a958110d958208d580bfd506c1ab smith367 <brayansmithpuente@gmail.com> 1706054300 -0500	commit: http config
+268b070faa05a958110d958208d580bfd506c1ab 470779e6f3f3929882f75f670fb1cb3119496678 smith367 <brayansmithpuente@gmail.com> 1706054424 -0500	commit: api functionaly
+470779e6f3f3929882f75f670fb1cb3119496678 791bda079ca795ba87d90169ec65f5b022bd234d smith367 <brayansmithpuente@gmail.com> 1706141518 -0500	commit: home completed
+791bda079ca795ba87d90169ec65f5b022bd234d 3871653f2f9249f2ca55b781de77ebbb2e0e10b9 smith367 <brayansmithpuente@gmail.com> 1706163559 -0500	commit: refactoring services
+3871653f2f9249f2ca55b781de77ebbb2e0e10b9 0c9499f527a1147051d43b350d75958d2892cc8d smith367 <brayansmithpuente@gmail.com> 1706163589 -0500	commit: login and register view added, and more refactor
+0c9499f527a1147051d43b350d75958d2892cc8d fbeb6c778146b3b987a3985b0193cc2694116dd2 smith367 <brayansmithpuente@gmail.com> 1706302551 -0500	commit: register completed
+fbeb6c778146b3b987a3985b0193cc2694116dd2 1d597a9cc63b60bdd2d9fb3f8197bece74c3901e smith367 <brayansmithpuente@gmail.com> 1706303741 -0500	commit: user manager service added
+1d597a9cc63b60bdd2d9fb3f8197bece74c3901e 075dbe6cdc46570ba6b973584c480d3c73494bf6 smith367 <brayansmithpuente@gmail.com> 1706306048 -0500	commit: user service manager created whit cookies
+075dbe6cdc46570ba6b973584c480d3c73494bf6 996e5a7471ca1a01d4382e99d59872277e5b6f5b smith367 <brayansmithpuente@gmail.com> 1706320442 -0500	commit: 404 route hadeld
+996e5a7471ca1a01d4382e99d59872277e5b6f5b a6d88e91e980ff81524db6f734caa35dae0e124b smith367 <brayansmithpuente@gmail.com> 1706320456 -0500	commit: 404
+a6d88e91e980ff81524db6f734caa35dae0e124b 5a5966c07737c1e518df28def761d86db62bb06f smith367 <brayansmithpuente@gmail.com> 1706320468 -0500	commit: login completed
+5a5966c07737c1e518df28def761d86db62bb06f ff3edfa68408ef572ac678046432445860875640 smith367 <brayansmithpuente@gmail.com> 1706320486 -0500	commit: user manager completed
+ff3edfa68408ef572ac678046432445860875640 ef666692384f26ca1e26d08dba63a7d134743c85 smith367 <brayansmithpuente@gmail.com> 1706331256 -0500	commit: header log in and logout added
+ef666692384f26ca1e26d08dba63a7d134743c85 f838661c6e4d3043f6c865e36f809384891c6ac5 smith367 <brayansmithpuente@gmail.com> 1706331271 -0500	commit: guardian dashboard
+f838661c6e4d3043f6c865e36f809384891c6ac5 0ae1771c0fdcb5c7015160445a8ceac9b0dbb16d smith367 <brayansmithpuente@gmail.com> 1706332956 -0500	commit: header visual and functional
+0ae1771c0fdcb5c7015160445a8ceac9b0dbb16d 12047fe60fbc6f6e7e246fe5bdfdc87bb4e0bd38 smith367 <brayansmithpuente@gmail.com> 1706381520 -0500	commit: user manager and auth manager added
+12047fe60fbc6f6e7e246fe5bdfdc87bb4e0bd38 dfdf0a15fa329aa3ddc3640d41a09581e1489eff smith367 <brayansmithpuente@gmail.com> 1706381533 -0500	commit: not found completed
+dfdf0a15fa329aa3ddc3640d41a09581e1489eff 524a938ed4247242165779c77ea79e9c25f29b77 smith367 <brayansmithpuente@gmail.com> 1706382824 -0500	commit: refactoring in logged state
+524a938ed4247242165779c77ea79e9c25f29b77 d33b34461295e54d51f2e11546e27b43ecd7eddd smith367 <brayansmithpuente@gmail.com> 1706417368 -0500	commit: unauth added
+d33b34461295e54d51f2e11546e27b43ecd7eddd 01feed2b497848848fad695f69c1de7648c17a53 smith367 <brayansmithpuente@gmail.com> 1706417570 -0500	commit: ..
+01feed2b497848848fad695f69c1de7648c17a53 b189741dc140ae9ae0589a22187c35d4846a7e1f smith367 <brayansmithpuente@gmail.com> 1706418699 -0500	commit: app routing completed
+b189741dc140ae9ae0589a22187c35d4846a7e1f 74ecf5c83ff085b8005aa7b7fc8bcc79ee263b59 smith367 <brayansmithpuente@gmail.com> 1706467287 -0500	commit: dash test
+74ecf5c83ff085b8005aa7b7fc8bcc79ee263b59 0613968813ea6d0f1f59215e8f53b0a6138583ab smith367 <brayansmithpuente@gmail.com> 1706467973 -0500	commit: shorted urls added
+0613968813ea6d0f1f59215e8f53b0a6138583ab e9741c345373ae444e92570be0c0b22db2b1fa8f smith367 <brayansmithpuente@gmail.com> 1706468015 -0500	commit: login refactor
+e9741c345373ae444e92570be0c0b22db2b1fa8f d4a2b7595920fb3c81a19f924e3e54d0d16d616a smith367 <brayansmithpuente@gmail.com> 1706468061 -0500	commit: auth service refactor
+d4a2b7595920fb3c81a19f924e3e54d0d16d616a e704fa03c050c1c6f3f8252070b997e6d4ec579d smith367 <brayansmithpuente@gmail.com> 1706483788 -0500	commit: create shly added
+e704fa03c050c1c6f3f8252070b997e6d4ec579d ebae973dd89bef4b8c05e52369d078940630caa8 smith367 <brayansmithpuente@gmail.com> 1706483807 -0500	commit: get shorted data added
+ebae973dd89bef4b8c05e52369d078940630caa8 cd391c2af369c338b76b8b9c46aee1ebe9e35cea smith367 <brayansmithpuente@gmail.com> 1706503570 -0500	commit: get data from backend whit cookies added
+cd391c2af369c338b76b8b9c46aee1ebe9e35cea 1e22470d329ca3c8a368ef1ebc5802e73b4f2bc1 smith367 <brayansmithpuente@gmail.com> 1706733684 -0500	commit: create url completed
+1e22470d329ca3c8a368ef1ebc5802e73b4f2bc1 fdc759f7465a16f173dc2a12c8d29175dceefa14 smith367 <brayansmithpuente@gmail.com> 1706737808 -0500	commit: dash url changed
+fdc759f7465a16f173dc2a12c8d29175dceefa14 96e9dc122e523311c1bca3d6297b5cc2eb6fe0ad smith367 <brayansmithpuente@gmail.com> 1706761391 -0500	commit: including view stats template
+96e9dc122e523311c1bca3d6297b5cc2eb6fe0ad 9d7b3eddd5feb3bd8dee71cf6fa858b873103ce5 smith367 <brayansmithpuente@gmail.com> 1706833798 -0500	commit: moda view stats added
+9d7b3eddd5feb3bd8dee71cf6fa858b873103ce5 88dddd10e83a0ead73e849c3b7f71f02a24b8bb3 smith367 <brayansmithpuente@gmail.com> 1706853282 -0500	commit: adding edit slug and view stats whit animations
+88dddd10e83a0ead73e849c3b7f71f02a24b8bb3 e762ac7db01ffe6a10b4c13855e09e75ab8b9e8d smith367 <brayansmithpuente@gmail.com> 1706853293 -0500	commit: edit slug view completed
+e762ac7db01ffe6a10b4c13855e09e75ab8b9e8d d31e32ab286ea045231e7fca0c7644c30a76e1ed smith367 <brayansmithpuente@gmail.com> 1706938526 -0500	commit: edit slug completed
+d31e32ab286ea045231e7fca0c7644c30a76e1ed 1af72b7f4d11ec829ea03b59caf8877579563f20 smith367 <brayansmithpuente@gmail.com> 1706941240 -0500	commit: edit slug completed and moda animation added
+1af72b7f4d11ec829ea03b59caf8877579563f20 9822a3c31770b875ed813491a7bd1508b4048631 smith367 <brayansmithpuente@gmail.com> 1706942207 -0500	commit: delete completed
+9822a3c31770b875ed813491a7bd1508b4048631 e295ab318148489a6e66f6be06b6acb508cc9575 smith367 <brayansmithpuente@gmail.com> 1707243479 -0500	commit: log out completed
+e295ab318148489a6e66f6be06b6acb508cc9575 1e2f6909de05ae3c62e2401b81f0254fb7af8c57 smith367 <brayansmithpuente@gmail.com> 1707243785 -0500	commit: refactor and delete logs
+1e2f6909de05ae3c62e2401b81f0254fb7af8c57 2c3a2dc05e52554d414b7a6f271ace30497b4d67 smith367 <brayansmithpuente@gmail.com> 1707243886 -0500	commit: deleting dash log
+2c3a2dc05e52554d414b7a6f271ace30497b4d67 2cb8d13480266fec87fa32c619b78eaf6c7d9f1d smith367 <brayansmithpuente@gmail.com> 1707244077 -0500	commit: readme updated
+2cb8d13480266fec87fa32c619b78eaf6c7d9f1d 973ae3d266fccf4adf3ffb4c5c9eb9482c0e3bac smith367 <brayansmithpuente@gmail.com> 1707289708 -0500	commit: frontend v1.0
+973ae3d266fccf4adf3ffb4c5c9eb9482c0e3bac 086939b061cdb17e41b72f8367efdf6c5f6a1941 smith367 <brayansmithpuente@gmail.com> 1707334736 -0500	commit: fixing fav icon un build
+086939b061cdb17e41b72f8367efdf6c5f6a1941 06ff3565ed6df573478a6e562a3846ebb5ea8999 smith367 <brayansmithpuente@gmail.com> 1707356853 -0500	commit: fixing error and auth cookie changed
+06ff3565ed6df573478a6e562a3846ebb5ea8999 34c4493d47c7b0a8186591e87e4a1bff2f69ed74 smith367 <brayansmithpuente@gmail.com> 1707357479 -0500	commit: prod
+34c4493d47c7b0a8186591e87e4a1bff2f69ed74 06ff3565ed6df573478a6e562a3846ebb5ea8999 smith367 <brayansmithpuente@gmail.com> 1707357517 -0500	reset: moving to HEAD~
+06ff3565ed6df573478a6e562a3846ebb5ea8999 b65c8b17fa62709883fd1e6e7c04ce7dfaee9268 smith367 <brayansmithpuente@gmail.com> 1707360132 -0500	commit: fixing home request
+b65c8b17fa62709883fd1e6e7c04ce7dfaee9268 c24428d01afb44ecb5c61077d0f38722e5378b31 smith367 <brayansmithpuente@gmail.com> 1707360378 -0500	commit: URL SHORTENER V1.0
+c24428d01afb44ecb5c61077d0f38722e5378b31 67de0487b5f27221335cfc0bc903dc2d20bf7f62 smith367 <brayansmithpuente@gmail.com> 1707360466 -0500	commit: link change
+67de0487b5f27221335cfc0bc903dc2d20bf7f62 097fdf13c691f85b736d7243997fb1dc28ce1dca smith367 <brayansmithpuente@gmail.com> 1707360508 -0500	commit: rest service

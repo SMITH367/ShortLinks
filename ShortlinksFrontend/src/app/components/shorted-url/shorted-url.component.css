@@ -1,0 +1,21 @@
+.a {
+  display: inline-block;
+  padding: 10px;
+  transition: transform 0.2s ease-in-out;
+  word-break: break-all;
+}
+
+/* Efecto de aumento de tamaño al hacer hover */
+.a:hover {
+  color:rgb(56, 172, 255);
+}
+.w-sm-100{
+  width: 100%;
+}
+
+
+@media (min-width: 768px) {
+  .w-lg-75{
+    width: 75%;
+  }
+}

@@ -1,0 +1,22 @@
+<app-header></app-header>
+<div class="card col-sm-4 col-lg-4">
+  <form [formGroup]="loginForm">
+     <h2 class="text-center fw-bold"> Log in</h2>
+     <p class="text-center fw-bold">Don't have an account? <a class="text-decoration-none" routerLink="/signup"> Sign Up</a></p>
+     <div class="email-login d-flex flex-column">
+        <label for="email"> <b>Email</b></label>
+        <input class="py-2 mt-3 mb-3 border rounded" formControlName="email" type="email" placeholder="Enter Email" name="uname" required>
+        <div class="text-danger" *ngIf="loginForm.get('email')?.hasError('email') && loginForm.get('email')?.touched">
+          Invalid email
+        </div>
+        <label for="psw"><b>Password</b></label>
+        <input class="py-2 mt-3 mb-2 border rounded" formControlName="password" type="password" placeholder="Enter Password" name="psw" required>
+        <div class="text-danger" *ngIf="loginForm.get('password')?.hasError('required') && loginForm.get('password')?.touched">
+          *Required
+        </div>
+      </div>
+      <div class="text-center py-4">
+        <button [disabled]="loginForm.invalid" class="btn btn-primary w-50 text-center" (click)="login($event)">Log In</button>
+      </div>
+    </form>
+</div>

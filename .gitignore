@@ -1,0 +1,54 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+ShortlinksFrontend/dist
+ShortlinksFrontend/tmp
+ShortlinksFrontend/out-tsc
+ShortlinksFrontend/bazel-out
+
+# Node
+ShortlinksFrontend/node_modules
+ShortlinksFrontend/npm-debug.log
+ShortlinksFrontend/yarn-error.log
+
+# IDEs and editors
+ShortlinksFrontend/.idea
+ShortlinksFrontend/.project
+ShortlinksFrontend/.classpath
+ShortlinksFrontend/.c9/
+ShortlinksFrontend/*.launch
+ShortlinksFrontend/.settings/
+ShortlinksFrontend/*.sublime-workspace
+
+
+# Miscellaneous
+ShortlinksFrontend/.angular/cache
+ShortlinksFrontend/.sass-cache/
+ShortlinksFrontend/connect.lock
+ShortlinksFrontend/coverage
+ShortlinksFrontend/libpeerconnection.log
+ShortlinksFrontend/testem.log
+ShortlinksFrontend/typings
+
+# System files
+ShortlinksFrontend/.DS_Store
+ShortlinksFrontend/Thumbs.db
+
+shlinks/.phpunit.cache
+shlinks/node_modules
+shlinks/public/build
+shlinks/public/hot
+shlinks/public/storage
+shlinks/storage/*.key
+shlinks/vendor
+shlinks/.env.backup
+shlinks/.env.production
+shlinks/.phpunit.result.cache
+shlinks/Homestead.json
+shlinks/Homestead.yaml
+shlinks/auth.json
+shlinks/npm-debug.log
+shlinks/yarn-error.log
+shlinks/.fleet
+shlinks/.idea
+shlinks/.vscode

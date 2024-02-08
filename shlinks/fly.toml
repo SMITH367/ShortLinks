@@ -1,0 +1,43 @@
+# fly.toml app configuration file generated for s-lk on 2024-02-07T13:27:49-05:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 's-lk'
+primary_region = 'mia'
+console_command = 'php /var/www/html/artisan tinker'
+
+[build]
+  [build.args]
+    NODE_VERSION = '18'
+    PHP_VERSION = '8.3'
+
+[env]
+  APP_ENV = 'production'
+  LOG_CHANNEL = 'stderr'
+  LOG_LEVEL = 'info'
+  LOG_STDERR_FORMATTER = 'Monolog\Formatter\JsonFormatter'
+  SESSION_DRIVER = 'cookie'
+  SESSION_SECURE_COOKIE = 'true'
+  DB_CONNECTION='pgsql'
+  DB_HOST='ep-lucky-block-a451qeds.us-east-1.aws.neon.tech'
+  DB_PORT=5432
+  DB_DATABASE='neondb'
+  DB_USERNAME='brayansmithpuente'
+  DB_PASSWORD='MJVZj3If9TLw'
+  DB_SSLMODE='require'
+
+
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ['app']
+
+[[vm]]
+  cpu_kind = 'shared'
+  cpus = 1
+  memory_mb = 256
