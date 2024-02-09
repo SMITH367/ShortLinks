@@ -38,6 +38,8 @@ export class UserManagerService {
   }
 
   getLoginState(){
-    return localStorage.getItem("login")
+
+    if(this.cookies.get("token")) return localStorage.getItem("login")
+    return false
   }
 }
