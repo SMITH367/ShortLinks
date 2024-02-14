@@ -23,8 +23,7 @@ class UsersController extends Controller
         if(Auth::attempt($credencials)){
             $user = Auth::user();
             $token = $user -> createToken("token")->plainTextToken;
-            $cookie = cookie("cookie_token",$token, 24*60);
-            return response(["token"=>$token, "userData" => $user], Response::HTTP_OK)->withCookie($cookie);
+            return response(["token"=>$token, "userData" => $user], Response::HTTP_OK);
         } else {
             return response(["error"=> "Invalid user or password"], Response::HTTP_UNAUTHORIZED);
         }
@@ -54,9 +53,9 @@ class UsersController extends Controller
        }
 
 
-    public function logout() {
-        $cookie = Cookie::forget('cookie_token');
-        return response(["message"=>"Cierre de sesión OK"], Response::HTTP_OK)->withCookie($cookie);
+    public function logout(Request $request) {
+        $request->user()->currentAccessToken()->delete();
+        return response(["message"=>"Cierre de sesión OK"], Response::HTTP_OK);
     }
 
     public function allUsers() {

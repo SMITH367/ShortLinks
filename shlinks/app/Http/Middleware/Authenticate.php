@@ -20,12 +20,4 @@ class Authenticate extends Middleware
         }
     }
 
-    public function handle($request, Closure $next, ...$guards)
-    {
-        if ($token = $request->cookie('cookie_token')) {
-            $this->authenticate($request, $guards);
-            return $next($request);
-        }
-
-    }
 }
